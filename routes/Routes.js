@@ -12,6 +12,7 @@ const authController = require("../controllers/authController");
 const { Protect } = require("../utils/protect");
 const { RestrictTo } = require("../utils/restrict");
 
+//! *** User Routes ***!//
 router.post("/login", authController.Login);
 router.post("/signup", authController.Signup);
 
