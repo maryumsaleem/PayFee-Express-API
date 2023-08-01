@@ -1,3 +1,4 @@
+//string constants
 const success = "success";
 const fail = "failed";
 // Student Statuses
